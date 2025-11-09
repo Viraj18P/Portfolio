@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viraj Patel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Viraj Patel</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+                <li><a href="#achievements" class="nav-link" data-section="achievements">Achievements</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#interests" class="nav-link" data-section="interests">Interests</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm Viraj Patel</h1>
+            <p class="hero-subtitle">Computer Science Student at IIT Indore</p>
+            <p class="hero-description">
+                A passionate problem-solver and developer, driven by a 9.79 CGPA and a love for building innovative solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/viraj-patel-5a3229330/" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://github.com/Viraj18P" target="_blank" class="social-link">GitHub</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Live showcase of my recent GitHub repositories</p>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="loading">Loading projects from GitHub...</div>
+            </div>
+            <div class="projects-footer">
+                <a href="https://github.com/Viraj18P" target="_blank" class="btn btn-secondary">
+                    View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Milestones</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🎓</div>
+                    <h3>IIT Indore Rank 2</h3>
+                    <p>Secured 2nd Rank in my Freshman Year</p>
+                    <p class="achievement-detail">CGPA: 9.79 / 10.0</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🔄</div>
+                    <h3>Branch Change</h3>
+                    <p>Successfully shifted from Electrical to CSE</p>
+                    <p class="achievement-detail">Based on FY academic merit</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>JEE Advanced 2024</h3>
+                    <p>AIR 2359</p>
+                    <p class="achievement-detail">Top 0.15% of 1.5M+ candidates</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">⭐</div>
+                    <h3>JEE Mains 2024</h3>
+                    <p>AIR 2555 (Score: 273/300)</p>
+                    <p class="achievement-detail">99.85 Percentile</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏅</div>
+                    <h3>IITI SOC Gold Medalist</h3>
+                    <p>Electronics Domain (8-Bit Pipelined CPU)</p>
+                    <p class="achievement-detail">Issued by IIT Indore, Sep 2025</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥇</div>
+                    <h3>ICSE (Class 10)</h3>
+                    <p>All India Rank 6</p>
+                    <p class="achievement-detail">Score: 98.8%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title">Experience & Responsibilities</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3 class="experience-title">Research Consultant</h3>
+                    <p class="experience-company">WorldQuant</p>
+                    <p class="experience-date">Jun 2025 - Present</p>
+                    <p class="experience-desc">Working on quantitative research and quantitative finance models.</p>
+                    <div class="experience-tags">
+                        <span class="exp-tag">Quantitative Research</span>
+                        <span class="exp-tag">Quantitative Finance</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Member & Volunteer</h3>
+                    <p class="experience-company">CFA Club, IIT Indore</p>
+                    <p class="experience-date">Sep 2024 - Present</p>
+                    <p class="experience-desc">Active in Finance, Quant, and Product Management domains.</p>
+                    <div class="experience-tags">
+                        <span class="exp-tag">Finance</span>
+                        <span class="exp-tag">Quant</span>
+                        <span class="exp-tag">Product Management</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Head of Outreach & Social Media</h3>
+                    <p class="experience-company">Electronics Club, IIT Indore</p>
+                    <p class="experience-date">Oct 2024 - Aug 2025</p>
+                    <p class="experience-desc">Led outreach initiatives and managed social media presence.</p>
+                    <div class="experience-tags">
+                        <span class="exp-tag">ESP32</span>
+                        <span class="exp-tag">Arduino</span>
+                        <span class="exp-tag">Leadership</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Team Member</h3>
+                    <p class="experience-company">EESA, IIT Indore</p>
+                    <p class="experience-date">Sep 2024 - Aug 2025</p>
+                    <p class="experience-desc">Contributed to both the Content & Social Media and Events teams.</p>
+                    <div class="experience-tags">
+                        <span class="exp-tag">Event Management</span>
+                        <span class="exp-tag">Content Creation</span>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Associate, Marketing Team</h3>
+                    <p class="experience-company">FLUXUS - IIT Indore</p>
+                    <p class="experience-date">Oct 2024 - Jan 2025</p>
+                    <p class="experience-desc">Worked on marketing, communication, and festival promotion.</p>
+                    <div class="experience-tags">
+                        <span class="exp-tag">Marketing</span>
+                        <span class="exp-tag">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Domains & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Database Management</span>
+                        <span class="skill-tag">Digital Logic</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Finance & Quant</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Quantitative Research</span>
+                        <span class="skill-tag">Quantitative Finance</span>
+                        <span class="skill-tag">Fundamental Analysis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Quartus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="section interests-section">
+        <div class="container">
+            <h2 class="section-title">Beyond Academics</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <h3>📚 Avid Reader</h3>
+                    <p>Passionate about diverse genres, from Rick Riordan's fictional series to military/spy thrillers like Mossad.</p>
+                    <div class="interest-items">
+                        <span class="interest-item">Percy Jackson</span>
+                        <span class="interest-item">Military Thrillers</span>
+                        <span class="interest-item">Spy Fiction</span>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <h3>🎵 Music Enthusiast</h3>
+                    <p>Love soulful melodies and captivating vocals. My favorite artists include:</p>
+                    <div class="interest-items">
+                        <span class="interest-item">Arijit Singh</span>
+                        <span class="interest-item">Aditya Gadhvi</span>
+                        <span class="interest-item">Sonu Nigam</span>
+                        <span class="interest-item">Shreya Ghoshal</span>
+                        <span class="interest-item">Jubin Nautiyal</span>
+                    </div>
+                </div>
+                <div class="interest-card">
+                    <h3>🎶 Favorite Songs</h3>
+                    <p>These songs are always on my playlist and hold a special place.</p>
+                    <div class="interest-items">
+                        <span class="interest-item">Vhalam Aavo Ne</span>
+                        <span class="interest-item">Saibo</span>
+                        <span class="interest-item">Shubhaarambh</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and create something amazing together.</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <a href="mailto:viraj.patel@iiti.ac.in">ee240002079@iiti.ac.in</a>
+                </div>
+                <div class="contact-card">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/viraj-patel-5a3229330/" target="_blank">
+                        in/viraj-patel
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/Viraj18P" target="_blank">
+                        github.com/Viraj18P
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <h3>Location</h3>
+                    <p>IIT Indore, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Viraj Patel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
